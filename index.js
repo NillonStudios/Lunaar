@@ -87,9 +87,7 @@ server.on("listening", () => {
   const address = server.address();
 
   console.log();
-  console.log(`Made by The Parcoil Network :`);
   console.log();
-  console.warn(`https://github.com/Parcoil/lunaar.org`);
   console.log();
   console.log(`Lunaar Running on port ${address.port}`);
   console.log();
